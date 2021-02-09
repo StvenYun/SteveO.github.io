@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body style="background-color: #99aab5;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #99aab5; color: ##FFFFFF;">
+        <a class="navbar-brand" href="index.html">Steven Yun</a>
+
+
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link"
+                        href="https://drive.google.com/file/d/144aUL_2VxOa8D6zjwGv8vQ4FCWSUXzCb/view?usp=sharing"
+                        target="_blank" rel="noopener noreferrer">Resume</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Projects
+                    </a>
+
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="./colorGenerator.html">Color Generator</a>
+                        <a class="dropdown-item" href="./discord.html">Discord Bots</a>
+                        <a class="dropdown-item" href="#">Project 3</a>
+                    </div>
+
+
+
+
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <!-- discord bots -->
+
+    <div class="jumbotron jumbotron-fluid" style="background-color: #2c2f33; color:#7289da" ;>
+        <div class="container">
+            <h1>Discord Bots</h1>
+            <p style="color: white;">Built with the discord.py library</p>
+        </div>
+    </div>
+    <div class="row" style="margin-left: 5%;">
+        <div class="col-lg-4 col-md-6 col-12 pb-5">
+            <div class="card" style="width: 18rem;">
+                <img src="discord-logo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Fantasy Stock Trader</h5>
+                    <p class="card-text">Stock trader built into discord bot which allows you to look up real market
+                        stock
+                        data, buy/sell stocks, check portfolio using a local MySQL Database. Allows you to invest fake
+                        money
+                        and
+                        get a feel for the stock
+                        market without the risk of using real money.</p>
+                    <p>Tech Stack: Python, MySQL</p>
+                    <p>Libraries: Discord.py, Numpy, Pandas, BeautifulSoup, aiohttp, requests,
+                        mysql-connection</p>
+                    <a href="https://github.com/StvenYun/StonkBot" target="_blank" rel="noopener noreferrer"
+                        class="btn btn-primary"
+                        style="color: #FFFFFF;  background-color: #7289da; outline: none;">Source</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 pb-5">
+
+            <div class="card" style="width: 18rem;">
+                <img src="discord-logo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">League of Legends Data</h5>
+                    <p class="card-text">Announces when user joins voice channel, joins and leaves voice channel
+                        automatically when it detects people using event listeners.</p>
+                    <p class="card-text">Tech Stack: Python</p>
+                    <p class="card-text"> Libraries: Discord.py, Numpy, Pandas, BeautifulSoup, aiohttp, requests
+                    </p>
+                    <a href="https://github.com/StvenYun/BBBot" target="_blank" rel="noopener noreferrer"
+                        class="btn btn-primary"
+                        style="color: #FFFFFF;  background-color: #7289da; outline: none;">Source</a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12 pb-5">
+
+            <div class="card" style="width: 18rem;">
+                <img src="discord-logo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Announcer</h5>
+                    <p class="card-text">Announces when user joins voice channel, joins and leaves voice channel
+                        automatically when it detects people using event listeners.</p>
+                    <p class="card-text">Tech Stack: Python</p>
+                    <p class="card-text">Libraries: Discord.py, gTTS, FFMPEG</p>
+                    <a href="https://github.com/StvenYun/BBBot" target="_blank" rel="noopener noreferrer"
+                        class="btn btn-primary"
+                        style="color: #FFFFFF;  background-color: #7289da; outline: none;">Source</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="row">
+        <div class="col-md-5">
+            <img src="stocktrader.png" alt="Through the Ages" class="margin-left w-70  img-fluid rounded"
+                style="text-align: center; margin-left:8%; ;">
+        </div>
+        <div class="col-md-5" style="padding: auto;">
+            <b>
+                <h3>Fantasy Stock Trader</h3>
+            </b>
+            <hr>
+            <p>Stock trader built into discord bot which allows you to look up real market stock
+                data, buy/sell stocks, check portfolio using a local MySQL Database. Allows you to invest fake money
+                and
+                get a feel for the stock
+                market without the risk of using real money.
+            </p>
+            <br>
+            <p>Tech Stack: Python, MySQL</p>
+            <p>Libraries: Numpy, Pandas, BeautifulSoup, Discord.py, aiohttp, requests,
+                mysql-connection</p>
+            <p> <a href="https://github.com/StvenYun/StonkBot" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-primary"
+                    style="color: #FFFFFF;  background-color: #7289da; outline: none;">Source</a>
+            </p>
+        </div>
+
+
+
+        <div class="col-md-5">
+            <img src="league.png" alt="Through the Ages" class="margin-left w-70  img-fluid rounded"
+                style="text-align: center; margin-left:8%; ;">
+        </div>
+        <div class="col-md-5" style="padding: auto;">
+            <b>
+                <h3>Fantasy Stock Trader</h3>
+            </b>
+            <hr>
+            <p>Stock trader built into discord bot which allows you to look up real market stock
+                data, buy/sell stocks, check portfolio using a local MySQL Database. Allows you to invest fake money
+                and
+                get a feel for the stock
+                market without the risk of using real money.
+            </p>
+            <br>
+            <p>Tech Stack: Python, MySQL</p>
+            <p>Libraries: Numpy, Pandas, BeautifulSoup, Discord.py, aiohttp, requests,
+                mysql-connection</p>
+            <p> <a href="https://github.com/StvenYun/StonkBot" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-primary"
+                    style="color: #FFFFFF;  background-color: #7289da; outline: none;">Source</a>
+            </p>
+        </div>
+
+    </div> -->
+    <!-- <div class="card_deck">
+        <div class="card" style="width:400px;  background-color: #2c2f33; color: #FFFFFF;">
+            <img class="card-img-top" src="stocktrader.png" alt="Card image"">
+            <div class=" card-body text-center">
+            <h4 class="card-title">Fantasy Stock Trader</h4>
+            <p class="card-text"> Stock trader built into discord bot which allows you to look up real market stock
+                data, buy/sell stocks, check portfolio using a local MySQL Database. Allows you to invest fake money
+                and
+                get a feel for the stock
+                market without the risk of using real money.
+            </p>
+            <p class="card-text"> Tech Stack: Python, MySQL
+            </p>
+            <p class="card-text"> Libraries: Numpy, Pandas, BeautifulSoup, Discord.py, aiohttp, requests,
+                mysql-connection
+            </p>
+            <a href="https://github.com/StvenYun/StonkBot" target="_blank" rel="noopener noreferrer"
+                class="btn btn-primary" style="color: #FFFFFF;  background-color: #7289da; outline: none;">Source</a>
+        </div>
+    </div> -->
+
+
+
+    </div>
+
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="https://use.fontawesome.com/c1a10ac078.js"></script>
+</body>
+
+</html>
